@@ -1,0 +1,317 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.back-img{
+	background-image:url(female-blonde-tutor-tutoring-young-girl-01.jpeg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	width:100%;
+	height:110%;
+}
+
+.menu-bar{
+	background: #0A0A23;
+	position:fixed;
+	width:100%;
+	height: 80px;
+	text-align:center;
+}
+.div2{
+	display:inline-block;
+}
+.logo{
+	width:190px; 
+	height:70px;
+	padding-top:20px;
+	padding-left:20px;
+	left:0;
+	float:left;
+}
+.menu-bar ul {
+	display:inline-flex;
+	list-style: none;
+	margin-left:320px;
+	color: #fff;
+}
+.menu-bar ul li {
+	
+	width: 120px;
+	margin:15px;
+	padding:10px;
+	font-size: 18px;
+	font-weight: 600;
+	
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	display:inline-flex;
+	color: #fff;
+}
+.active,.menu-bar ul li:hover{
+	background:#2bab0d;
+	border-radius: 3px;
+	
+}
+.menu-bar .fa {
+	margin-right:8px;
+}
+.sub-menu-1{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display:block;
+	position: absolute;
+	background: #0A0A23;
+	margin-top:15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display:block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width:150px;
+	padding:10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+	
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #b2ff00;
+}
+.fa-angle-right{
+	float:right;
+}
+
+.left{
+	position: absolute;
+	left: 34%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.left .text1{
+	color: white;
+	font-size: 60px;
+	width: 900px;
+	font-weight: bold;
+	/*text-align: center;*/
+}
+.left .text2{
+	color: #8FE0FF;
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	/*text-align: center;*/
+}
+.left .buttons{
+	margin: 65px 140px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 65px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+.lef-menu{
+	background: red;
+	position:fixed;
+	height: 100%;
+	text-align:center;
+	
+	width:285px;
+	top:80px;
+	left:0;
+	
+	z-index:1;
+	padding-top:80px;
+}
+.center{
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center1{
+	position: absolute;
+	left: 40%;
+	top: 95%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+	
+}
+.my-font{
+	/*color: #8FE0FF;*/
+	
+	font-weight: bold;
+	font-size:25px;
+	font-family:consolas;
+}
+.my-font1{
+	/*color: #8FE0FF;*/
+	padding-left:30px;
+	text-align:left;
+	white-space:nowrap;
+	font-weight: bold;
+	font-size:25px;
+	font-family:consolas;
+}
+.my-text-field{
+	padding:20px;
+	width:314px;
+	height:50px;
+}
+.num-text-field{
+	padding:60px;
+	width:314px;
+	height:50px;
+	size:20px;
+}
+.radio-style{
+	padding-left:20px;
+}
+.logo2{
+	width:40px;
+	height:40px;
+}
+.radio-text{
+	/*color: #8FE0FF;*/
+	
+	
+	font-weight: bold;
+	font-size:25px;
+	font-family:consolas;
+	text-align:center;
+}
+.radio-style .radio-back{
+	background:#FFDD40;
+	padding:10px;
+	display:inline-flex;
+	border-radius:25px;
+}
+.signup-text{
+	color: rgb(166, 30, 77);
+}
+.signup-text:hover{
+	color: red;
+}
+.err-msg{
+	color:red;
+	font-size:20px;
+	font-family:cambria;
+}
+.left-menu-text ul{
+	width: 120px;
+	margin:15px;
+	padding:20px 0 0 70px;
+	font-size: 18px;
+	font-weight: 600;
+	color:white;
+	
+	white-space:nowrap;
+	
+}
+.left-menu-text ul li{
+	
+	padding:5px;
+	
+}
+.left-menu-text ul li a{
+	text-decoration:none;
+	
+	color: #fff;
+}
+
+
+
+
+
+
+
+.header{
+	padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: red;
+    font-size: 30px;
+
+}
+
+.login-div{
+	border:1px solid black;
+	margin:auto;
+	width:21%;
+	border-radius:10px;
+	margin-top:15%;
+	padding:25px;
+	
+	
+}
+
+.footer{
+	height:90px;
+	/*background-color:black;*/
+	bottom:0;
+	left:0;
+	width:100%;
+	position:fixed;
+	color:white;
+	text-align:center;
+	
+}
+.btn-mine{
+	background-color:tomato;
+	padding:5px;
+	border-radius:5px;
+	color:white;
+	border:none;
+	width:100%;
+}
+.btn-mine:hover{
+	background-color:red;
+}
+.btn-mine:active{
+	background-color:green;
+}
+
+.option-size{
+	height:60px;
+	width:150px;
+}
+
+.head-table{
+	background-color:green;
+	top:0;
+	left:0;
+	width:100%
+	
+}
+.head-backclr{
+	background-color:green;
+	
+}
